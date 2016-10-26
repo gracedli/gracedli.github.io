@@ -1,6 +1,6 @@
 ################################################################################################
 
-Documentation for Landing Page Theme by Bootstrapious - http://bootstrapious.com, rel. 2015/11/19
+Documentation for Black and White Template by Bootstrapious - http://bootstrapious.com, rel. 2015/12/07
 
 ################################################################################################
 
@@ -19,21 +19,21 @@ The theme stylesheet is css/style.default.css. If you want to make any changes, 
 Javascript
 ----------
 
-Apart from Bootstrap JS components majority of JS is located in js/front.js. 
+Apart from Bootstrap JS components, the majority of JS is located in /js/front.js. 
 
 Credits
 ---------
 
 - Botstrap 3.3.2
 - Font Awesome 4.3.0
-- Google Fonts - Roboto
+- Google Fonts - Montserrat + Cardo
 
 
 ---------------------
  LICENCE CONDITIONS
 ---------------------
 
-You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to us and our partner. If you want to remove the link, consider donating - http://bootstrapious.com/donate.
+You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to us and our partner.
 
 However you cannot redistribute the template as a template itself - neither for free or commercially (i.e. selling it on template marketplace).
 
