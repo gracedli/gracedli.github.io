@@ -1,296 +1,187 @@
+<!--
 
+=========================================================
+* Neumorphism UI - v1.0.0
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
+* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Grace Li</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <!-- Bootstrap and Font Awesome css-->
-    <!-- we use cdn but you can also include local files located in css directory-->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
-    <!-- ekko lightbox-->
-    <link rel="stylesheet" href="css/ekko-lightbox.css">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="favicon.png">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-  </head>
-  <body data-spy="scroll" data-target="#navigation" data-offset="120">
-    <!-- intro-->
-    <section id="intro" style="background-image: url('img/IMG-20191227-WA0003.jpg');" class="intro">
-      <div class="overlay"></div>
-      <div class="content">
-        <div class="container clearfix">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- Primary Meta Tags -->
+  <title>Grace Li</title>
+
+  <!-- Fontawesome -->
+  <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Pixel CSS -->
+  <link type="text/css" href="./css/neumorphism.css" rel="stylesheet">
+
+  <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
+
+</head>
+
+<body>
+
+  <header class="header-global">
+    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent navbar-theme-primary">
+        <div class="container position-relative">
+            <a class="navbar-brand" style="font-size: 2em; font-weight: bold;" href="#">Grace Li</a>
+            <div class="navbar-collapse collapse" id="navbar_global">
+                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" rel="noopener">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-toggle="dropdown" >
+                            <span class="nav-link-inner-text">Novels</span>
+                            <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="troy.html">The Fall of Troy</a></li>
+                            <li><a class="dropdown-item" href="thief.html">Portrait of a Thief</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+
+    <main class="body">
+
+        <!-- Hero -->
+        <section class="section section bg-soft pb-5 overflow-hidden z-2">
+            <div class="profile-card mb-5 presentation" style="width: 400px; margin: auto;">
+                <div class="card bg-primary shadow-soft border-light">
+                    <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
+                        <img src="./assets/img/grace.jpg" class="card-img-top rounded-circle" alt="Christopher Avatar">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h5 mb-2">Grace Li</h3>
+                        <span class="h6 font-weight-normal text-gray mb-3">Writer</span>
+                        <ul class="list-unstyled d-flex my-3">
+                            <li>
+                                <a href="https://twitter.com/gracedli" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:graceli@alumni.duke.edu" target="_blank" aria-label="email social link" class="icon icon-xs icon-slack mr-3">
+                                    <span class="fas fa-envelope"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="card-text">Grace Li is a graduate of Duke University, where she studied biology and creative writing, and is currently in medical school at Stanford University. She likes dessert, stories about diaspora, and prose so good it can be eaten, and is represented by Hannah Fergesen at KT Literary.
+
+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="presentation">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-12">
-              <p class="italic"> </p>
-              <div style="display: flex;">
-                <div class="typewriter">
-                  <h1>Hi, I'm Grace Li.</h1>
-                </div>
+              <div class="col text-center">
+                  <h3 class="h4 card-title mb-3">Short Pieces</h3>
               </div>
-            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- intro end-->
-    <!-- navbar-->
-    <header class="header">
-      <div class="sticky-wrapper">
-        <div role="navigation" class="navbar navbar-default">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-btn btn-sm navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#intro" class="navbar-brand scroll-to"></a>
-              <!-- <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-btn btn-sm navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#intro" class="navbar-brand scroll-to"><img src="img/logo.png" alt=""></a> -->
-            </div>
-            <div id="navigation" class="collapse navbar-collapse navbar-right">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#intro">Home</a></li>
-                <li><a href="#about">About </a></li>
-                <!-- <li><a href="#services">Services</a></li> -->
-                <!-- <li><a href="#portfolio">Travels</a></li> -->
-                <li><a href="#text">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- /.navbar-->
-    <!-- about-->
-    <section id="about" class="text">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="heading">About</h2>
-            <p>Grace Li grew up in a small town in Texas as the eldest daughter of two scientists. She graduated from Duke University, where she studied biology and creative writing, and spent two years as a high school teacher in New York City before moving to Northern California. She is currently in medical school at Stanford University.</p>
-              <p>Her writing has been recognized by the Saturday Evening Post Great American Fiction Contest and Stanford's Paul Kalanithi Writing Award, and has been published in <a href="https://hyphenmagazine.com/blog/2020/04/april-lit-how-say-goodbye-language-does-not-feel-home" style="text-decoration:underline;">Hyphen Magazine</a> and <a href="http://www.theintima.org/imaginary-rooms" style="text-decoration:underline;">The Intima</a>. She likes dessert, stories about diaspora, and prose so good it can be eaten.</p>
-            <p>Grace is represented by Hannah Fergesen of KT Literary.</p>
-          </div>
-          <div class="col-md-5 col-md-offset-1">
-            <p><img src="img/Asa 2020 Square.jpg" alt="" class="img-responsive img-circle"></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about end-->
-    <!-- Services
-    <section id="services" style="background-color: #eee">
-      <div class="container">
-        <div class="row services">
-          <div class="col-md-12">
-            <h2 class="heading">Services</h2>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="box">
-                  <div class="icon"><i class="fa fa-desktop"></i></div>
-                  <h4>Webdesign</h4>
-                  <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box">
-                  <div class="icon"><i class="fa fa-print"></i></div>
-                  <h4>Print</h4>
-                  <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural.</p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box">
-                  <div class="icon"><i class="fa fa-globe"></i></div>
-                  <h4>SEO and SEM</h4>
-                  <p>Am terminated it excellence invitation projection as. She graceful shy. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    Services end -->
-
-
-    <!-- Portfolio / gallery -->
-    <!--
-    <section id="portfolio" class="gallery">
-      <div class="container clearfix">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-12 col-lg-8">
-                <h2 class="heading">Travels</h2>
-                <p>Put your portfolio or gallery images here for example. Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-7.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information"><img src="img/portfolio-1.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-2.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 2" data-footer="Some footer information"><img src="img/portfolio-2.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-3.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 3" data-footer="Some footer information"><img src="img/portfolio-3.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-4.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 4" data-footer="Some footer information"><img src="img/portfolio-4.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-5.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 5" data-footer="Some footer information"><img src="img/portfolio-5.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-6.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 6" data-footer="Some footer information"><img src="img/portfolio-6.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-7.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 7" data-footer="Some footer information"><img src="img/portfolio-7.jpg" alt="" class="img-responsive"></a></div>
-              </div></a>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-8.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 8" data-footer="Some footer information"><img src="img/portfolio-8.jpg" alt="" class="img-responsive"></a></div>
-              </div></a>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-9.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 9" data-footer="Some footer information"><img src="img/portfolio-9.jpg" alt="" class="img-responsive"></a></div>
-              </div></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    -->
-    <!-- Portfolio / gallery end -->
-    <!-- text page-->
-    <section id="text" style="background-color: #333;" class="text-page section-inverse">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="heading">Projects</h2>
-            <div class="row">
-              <div class="col-sm-6">
-                <p>THE FALL OF TROY is a reimagining of the Iliad, set in the Greek underworld. When Helen of Troy enters the afterlife, she must face all the heroes who died in the war she caused — and they aren't ready to forgive her. </p>
-                <p>PORTRAIT OF A THIEF is Ocean's 11 meets The Farewell, about five Chinese American college students hired for a series of heists to reclaim looted Chinese art. It is based on the true story of Chinese art vanishing from Western museums.</p>
-              </div>
-              <!-- <div class="col-sm-6"> -->
-                <!-- <p>Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call them eat face. Age lived smile six defer bed their few. Had admitting concluded too behaviour him she. Of death to or to being other. </p> -->
-                <!-- <p>Saw yet kindness too replying whatever marianne. Old sentiments resolution admiration unaffected its mrs literature. Behaviour new set existence dashwoods. It satisfied to mr commanded consisted disposing engrossed. Tall snug do of till on easy. Form not calm new fail. </p> -->
-             <!--  </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- text page end-->
-    <!-- contact-->
-    <section id="contact" style="background-color: #fff;" class="text-page">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="heading">Contact</h2>
-            <div class="row">
-              <!--
-              <div class="col-md-6">
-                <form id="contact-form" method="post" action="#" class="contact-form">
-                  <div class="controls">
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <label for="name">First Name*</label>
-                          <input type="text" name="name" placeholder="Enter your first name" required="required" class="form-control">
-                        </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="card bg-primary shadow-inset border-light height95">
+                    <div class="card-body p-5">
+                        <h3 class="h4 card-title mb-3">How to Say Goodbye in a Language That Does Not Feel Like Home</h3>
+                        <p class="card-text mt-4">When people ask where your parents are from, you say the name of a city two hours away. It is not where they grew up but it is close enough.</p>
+                      <div class="d-flex align-items-center">
+                          <a href="https://hyphenmagazine.com/blog/2020/04/april-fiction-how-say-goodbye-language-does-not-feel-home" target="_blank" class="btn btn-primary btn-sm mr-3">Read More</a>
                       </div>
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <label for="surname">Last Name*</label>
-                          <input type="text" name="surname" placeholder="Enter your last name" required="required" class="form-control">
-                        </div>
+                      <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card bg-primary shadow-inset border-light height95">
+                    <div class="card-body p-5">
+                        <h3 class="h4 card-title mb-3">Imaginary Rooms</h3>
+                        <p class="card-text mt-4">This first year, all our patients are pretend. I see them twice a week, shrugging into my white coat between the imaginary divide between us and them, knocking on imaginary doors.</p>
+                      <div class="d-flex align-items-center">
+                        <a href="http://www.theintima.org/imaginary-rooms" target="_blank" class="btn btn-primary btn-sm mr-3">Read More</a>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label for="surname">Email*</label>
-                      <input type="email" name="email" placeholder="Enter your email" required="required" class="form-control">
-                    </div>
-                    <div class="form-group">
-                      <label for="surname">Message*</label>
-                      <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
-                    </div>
-                    <div class="text-center">
-                      <input type="submit" name="name" value="Send message" class="btn btn-primary btn-block">
-                    </div>
-                  </div>
-                </form>
-              </div>
-
-              -->
-              <div class="col-md-6">
-                <p> For additional information or sensitivity reading services (mostly through referral), please contact her via email. She is not the Grace Li that writes about books, culture, and food for the SF Weekly, though she welcomes invitations to restaurants and offers of book galleys regardless. </p>
-                <p class="social"><a href="http://www.twitter.com/gracedli" title="" class="twitter"><i class="fa fa-twitter"></i></a> <a href="mailto:graceli@alumni.duke.edu" title="" class="email"><i class="fa fa-envelope"></i></a></p>
-              </div>
-              <!--<div class="col-md-5 col-md-offset-1">
-                 <p><img src="img/light.jpg" alt="" class="img-responsive img-circle"></p>
-              </div> -->
+                </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- <div id="map"></div> -->
-    <footer style="background-color: #111;" class="section-inverse">
-      <div class="container">
-        <div class="row copyright">
-          <div class="col-md-6">
-            <p>&copy; 2020 Grace Li</p>
-          </div>
-          <div class="col-md-6">
-            <p class="credit">Template by <a href="http://bootstrapious.com/landing-pages">Bootstrapious &mdash; Bootstrap Landing Pages</a></p>
-            <!-- Please do not remove the backlink to us. It is part of the licence conditions. Thanks for understanding :)
-            -->
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Javascript files-->
-    <!-- jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
-    <!-- Bootstrap CDN-->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- jQuery Cookie - For Demo Purpose-->
-    <script src="js/jquery.cookie.js"></script>
-    <!-- Lightbox-->
-    <script src="js/ekko-lightbox.js"> </script>
-    <!-- Sticky + Scroll To scripts for navbar-->
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
+        </section>
 
-    <!-- google maps-->
-    <!--
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false"></script>
-    <script src="js/gmaps.js"></script> -->
-    <!-- main script-->
-    <script src="js/front.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-86436206-1');ga('send','pageview');
-    </script>
-  </body>
+        <div class="section bg-primary pt-0 section-lg">
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <div class="col text-center">
+                <h3 class="h4 card-title mb-3">Novels</h3>
+            </div>
+        </div>
+        <!-- End of title-->
+        <div class="row mb-5">
+            <div class="col-12 col-md-6">
+                <div class="card bg-primary border-light shadow-soft">
+                    <img src="./assets/img/troy.jpg" class="card-img-top rounded-top" alt="Themesberg office">
+                    <div class="card-body">
+                        <h3 class="h5 card-title mt-3">The Fall of Troy</h3>
+                        <p class="card-text">The Fall of Troy is a feminist reimagining of the Iliad, set in the Greek underworld. When Helen of Troy enters the afterlife, she must face all the heroes who died in the war she caused — and they aren't ready to forgive her.
+                        </p>
+                        <a href="troy.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card bg-primary border-light shadow-soft">
+                    <img src="./assets/img/thief.jpg" class="card-img-top rounded-top" alt="Themesberg office">
+                    <div class="card-body">
+                        <h3 class="h5 card-title mt-3">Portrait of a Thief</h3>
+                        <p class="card-text">Portrait of a Thief is Ocean's Eleven meets The Farewell, about five Chinese American college students hired for a series of heists to reclaim looted Chinese art. It is based on the true story of Chinese art vanishing from Western museums.</p>
+                        <a href="thief.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <!-- Core -->
+<script src="./vendor/jquery/dist/jquery.min.js"></script>
+<script src="./vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./vendor/headroom.js/dist/headroom.min.js"></script>
+
+<!-- Vendor JS -->
+<script src="./vendor/onscreen/dist/on-screen.umd.min.js"></script>
+<script src="./vendor/nouislider/distribute/nouislider.min.js"></script>
+<script src="./vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="./vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="./vendor/jarallax/dist/jarallax.min.js"></script>
+<script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
+<script src="./vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+<script src="./vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="./vendor/prismjs/prism.js"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Neumorphism JS -->
+<script src="./assets/js/neumorphism.js"></script>
+</body>
+
 </html>
