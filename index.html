@@ -1,206 +1,115 @@
-<!--
-
-=========================================================
-* Neumorphism UI - v1.0.0
-=========================================================
-
-* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
-* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
-
-* Coded by https://themesberg.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
--->
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <!-- Primary Meta Tags -->
+<!DOCTYPE HTML>
+<header>
   <title>Grace Li</title>
-
-  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-
-  <!-- Pixel CSS -->
-  <link type="text/css" href="./css/neumorphism.css" rel="stylesheet">
-
-  <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
-
-</head>
-
+  <link rel="stylesheet" href="./style.css">
+</header>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light transparent">
+    <a class="navbar-brand" href="#">Grace Li</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <header class="header-global">
-    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent navbar-theme-primary">
-        <div class="container position-relative">
-            <a class="navbar-brand" style="font-size: 2em; font-weight: bold;" href="#">
-                Grace Li
-            </a>
-            <div class="navbar-collapse collapse" id="navbar_global">
-                <div class="navbar-collapse-header">
-                    <div class="row">
-                        <div class="col-6 collapse-brand">
-                          <a class="navbar-brand" style="font-size: 2em; font-weight: bold;" href="#">
-                              Grace Li
-                          </a>
-                        </div>
-                        <div class="col-6 collapse-close">
-                            <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
-                        </div>
-                    </div>
-                </div>
-                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" rel="noopener">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown" >
-                            <span class="nav-link-inner-text">Novels</span>
-                            <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="troy.html">The Fall of Troy</a></li>
-                            <li><a class="dropdown-item" href="thief.html">Portrait of a Thief</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex align-items-center">
-                <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-    </nav>
-  </header>
-
-    <main class="body">
-
-        <!-- Hero -->
-        <section class="section section bg-soft pb-5 overflow-hidden z-2">
-            <div class="profile-card mb-5 presentation" style="width: 400px; margin: auto;">
-                <div class="card bg-primary shadow-soft border-light">
-                    <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
-                        <img src="./assets/img/grace.jpg" class="card-img-top rounded-circle" alt="Christopher Avatar">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="h5 mb-2">Grace Li</h3>
-                        <span class="h6 font-weight-normal text-gray mb-3">Writer</span>
-                        <ul class="list-unstyled d-flex my-3">
-                            <li>
-                                <a href="https://twitter.com/gracedli" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
-                                    <span class="fab fa-twitter"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:graceli@alumni.duke.edu" target="_blank" aria-label="email social link" class="icon icon-xs icon-slack mr-3">
-                                    <span class="fas fa-envelope"></span>
-                                </a>
-                            </li>
-                        </ul>
-                        <p class="card-text">Grace Li is a graduate of Duke University, where she studied biology and creative writing, and is currently in medical school at Stanford University. She likes dessert, stories about diaspora, and prose so good it can be eaten, and is represented by Hannah Fergesen at KT Literary.
-
-</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="presentation">
-          <div class="row">
-              <div class="col text-center">
-                  <h3 class="h4 card-title mb-3">Short Pieces</h3>
-              </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Novels
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./troy.html">The Fall of Troy</a>
+            <a class="dropdown-item" href="./thief.html">Portrait of a Thief</a>
           </div>
-          <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="card bg-primary shadow-inset border-light height95">
-                    <div class="card-body p-5">
-                        <h3 class="h4 card-title mb-3">How to Say Goodbye in a Language That Does Not Feel Like Home</h3>
-                        <p class="card-text mt-4">When people ask where your parents are from, you say the name of a city two hours away. It is not where they grew up but it is close enough.</p>
-                      <div class="d-flex align-items-center">
-                          <a href="https://hyphenmagazine.com/blog/2020/04/april-fiction-how-say-goodbye-language-does-not-feel-home" target="_blank" class="btn btn-primary btn-sm mr-3">Read More</a>
-                      </div>
-                      <br/>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="card bg-primary shadow-inset border-light height95">
-                    <div class="card-body p-5">
-                        <h3 class="h4 card-title mb-3">Imaginary Rooms</h3>
-                        <p class="card-text mt-4">This first year, all our patients are pretend. I see them twice a week, shrugging into my white coat between the imaginary divide between us and them, knocking on imaginary doors.</p>
-                      <div class="d-flex align-items-center">
-                        <a href="http://www.theintima.org/imaginary-rooms" target="_blank" class="btn btn-primary btn-sm mr-3">Read More</a>
-                      </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </section>
-
-        <div class="section bg-primary pt-0 section-lg">
-    <div class="container">
-        <!-- Title -->
-        <div class="row">
-            <div class="col text-center">
-                <h3 class="h4 card-title mb-3">Novels</h3>
-            </div>
-        </div>
-        <!-- End of title-->
-        <div class="row mb-5">
-            <div class="col-12 col-md-6">
-                <div class="card bg-primary border-light shadow-soft">
-                    <img src="./assets/img/troy.jpg" class="card-img-top rounded-top" alt="Themesberg office">
-                    <div class="card-body">
-                        <h3 class="h5 card-title mt-3">The Fall of Troy</h3>
-                        <p class="card-text">The Fall of Troy is a feminist reimagining of the Iliad, set in the Greek underworld. When Helen of Troy enters the afterlife, she must face all the heroes who died in the war she caused — and they aren't ready to forgive her.
-                        </p>
-                        <a href="troy.html" class="btn btn-primary btn-sm">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="card bg-primary border-light shadow-soft">
-                    <img src="./assets/img/thief.jpg" class="card-img-top rounded-top" alt="Themesberg office">
-                    <div class="card-body">
-                        <h3 class="h5 card-title mt-3">Portrait of a Thief</h3>
-                        <p class="card-text">Portrait of a Thief is Ocean's Eleven meets The Farewell, about five Chinese American college students hired for a series of heists to reclaim looted Chinese art. It is based on the true story of Chinese art vanishing from Western museums.</p>
-                        <a href="thief.html" class="btn btn-primary btn-sm">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pitchwars.html">Pitch Wars</a>
+        </li>
     </div>
-</div>
-    </main>
+  </nav>
 
-    <!-- Core -->
-<script src="./vendor/jquery/dist/jquery.min.js"></script>
-<script src="./vendor/popper.js/dist/umd/popper.min.js"></script>
-<script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="./vendor/headroom.js/dist/headroom.min.js"></script>
+  <main>
+    <section class="profile">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="profile-section" style="padding-top: 10px; padding-left: 10px;">
+            <img src="./assets/img/grace.jpg" alt="..." id="profile-image">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card neu" style="width: 30rem;">
+            <!-- <div style="padding-top: 10px; padding-left: 10px;">
+              <img src="./assets/img/grace.jpg" class="card-img-top" alt="..." id="profile-image">
+            </div> -->
+            <div class="card-body">
+              <h5 class="card-title">Grace Li | <span style="font-style: italic;">Writer</span></h5>
+              <p class="card-text">Grace Li is a graduate of Duke University, where she studied biology and creative writing, and is currently in medical school at Stanford University. She likes dessert, stories about diaspora, and prose so good it can be eaten. Grace is represented by Hannah Fergesen at KT Literary.</p>
+              <span class="fab fa-twitter fa-lg"></span>
+              <span class="fas fa-envelope fa-lg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Vendor JS -->
-<script src="./vendor/onscreen/dist/on-screen.umd.min.js"></script>
-<script src="./vendor/nouislider/distribute/nouislider.min.js"></script>
-<script src="./vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<script src="./vendor/waypoints/lib/jquery.waypoints.min.js"></script>
-<script src="./vendor/jarallax/dist/jarallax.min.js"></script>
-<script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
-<script src="./vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-<script src="./vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="./vendor/prismjs/prism.js"></script>
+    <section class="presentation">
+      <h1>Short Pieces</h1>
+      <div class="card-deck">
+        <div class="card neu-in">
+          <div class="card-body">
+            <h5 class="card-title">How to Say Goodbye in a Language That Does Not Feel Like Home</h5>
+            <p class="card-text">When people ask where your parents are from, you say the name of a city two hours away. It is not where they grew up but it is close enough.</p>
+          </div>
+          <div class="card-body">
+            <a href="https://hyphenmagazine.com/blog/2020/04/april-fiction-how-say-goodbye-language-does-not-feel-home" target="_blank" class="btn btn-dark neu neu-btn" type="submit">Read more</a>
+          </div>
+        </div>
+        <div class="card neu-in">
+          <div class="card-body">
+            <h5 class="card-title">Imaginary Rooms</h5>
+            <p class="card-text">This first year, all our patients are pretend. I see them twice a week, shrugging into my white coat between the imaginary divide between us and them, knocking on imaginary doors.</p>
+          </div>
+          <div class="card-body">
+            <a href="http://www.theintima.org/imaginary-rooms" target="_blank" class="btn btn-dark neu neu-btn" type="submit">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+    <section class="presentation">
+      <h1>Novels</h1>
+      <div class="card-deck">
+        <div class="card neu">
+          <img src="./assets/img/troy.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">The Fall of Troy</h5>
+            <p class="card-text">The Fall of Troy is a feminist reimagining of the Iliad, set in the Greek underworld. When Helen of Troy enters the afterlife, she must face all the heroes who died in the war she caused — and they aren't ready to forgive her.</p>
+          </div>
+          <div class="card-body">
+            <a href="./troy.html" class="btn btn-dark neu neu-btn" type="submit">Learn more</a>
+          </div>
+        </div>
+        <div class="card neu">
+          <img src="./assets/img/thief.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Portrait of a Thief</h5>
+            <p class="card-text">Portrait of a Thief is Ocean's Eleven meets The Farewell, about five Chinese American college students hired for a series of heists to reclaim looted Chinese art. It is based on the true story of Chinese art vanishing from Western museums.</p>
+          </div>
+          <div class="card-body">
+            <a href="./thief.html" class="btn btn-dark neu neu-btn" type="submit">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Neumorphism JS -->
-<script src="./assets/js/neumorphism.js"></script>
+    <br/><br/>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
-
-</html>
