@@ -1,5 +1,9 @@
 main {
-  background: #EFEEEE;
+  background: #e6e7ee;
+}
+
+.btn-link {
+  color: black;
 }
 
 section {
@@ -34,17 +38,17 @@ section {
 }
 
 .neu {
-  background: #EFEEEE;
+  background: #e6e7ee;
   border: 1px solid rgba(255,255,255,0.20);
   border-radius: 12px;
-  box-shadow: -6px -6px 26px 0 rgba(255,255,255,0.95), 6px 6px 16px 0 rgba(217, 210, 200, 0.95) ;
+  box-shadow: -6px -6px 26px 0 rgba(255,255,255,0.95), 6px 6px 16px 0 rgba(182, 185, 206, 0.95) ;
 }
 
 .neu-in {
-  background: #EFEEEE;
+  background: #e6e7ee;
   border: 1px solid rgba(255,255,255,0.20);
   border-radius: 12px;
-  box-shadow: inset -6px -6px 26px 0 rgba(255,255,255,0.95), inset 6px 6px 16px 0 rgba(217, 210, 200, 0.95) ;
+  box-shadow: inset -6px -6px 26px 0 rgba(255,255,255,0.95), inset 6px 6px 16px 0 rgba(182, 185, 206, 0.95) ;
 }
 
 .neu-btn {
