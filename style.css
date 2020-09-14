@@ -2,6 +2,22 @@ main {
   background: #e6e7ee;
 }
 
+#twitter-icon {
+  color: black;
+}
+
+#twitter-icon:hover {
+  color: #1DA1F2;
+}
+
+#mail-icon {
+  color: black;
+}
+
+#mail-icon:hover {
+  color: gray;
+}
+
 .btn-link {
   color: black;
 }
