@@ -2,6 +2,14 @@ main {
   background: #e6e7ee;
 }
 
+a {
+  color: #573CB9;
+}
+
+a:hover {
+  color: #573CB9;
+}
+
 #twitter-icon {
   color: black;
 }
@@ -15,11 +23,28 @@ main {
 }
 
 #mail-icon:hover {
-  color: gray;
+  color: #D44638;
 }
 
 .btn-link {
   color: black;
+}
+
+.btn-link:hover {
+  color: #573CB9;
+}
+
+.dropdown-menu {
+  background: #e6e7ee;
+}
+
+.dropdown-item:hover {
+  background-color: #A393DC;
+  color: white;
+}
+
+.dropdown-item:focus {
+  background-color: #7C65CD;
 }
 
 section {
@@ -28,7 +53,7 @@ section {
 }
 
 .transparent {
-  background: rgba(0,0,0,0.4);
+  background: #e6e7ee;
 }
 
 .presentation {
