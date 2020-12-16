@@ -3,11 +3,11 @@ main {
 }
 
 a {
-  color: #0C59AC;
+  color: #424761;
 }
 
 a:hover {
-  color: #0C59AC;
+  color: #424761;
 }
 
 h1, h2 {
@@ -40,7 +40,7 @@ h5 {
 }
 
 .btn-link:hover {
-  color: #0C59AC;
+  color: #424761;
 }
 
 .dropdown-menu {
