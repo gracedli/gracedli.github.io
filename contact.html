@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <head>
-  <title>Grace D. Li | Portrait of a Thief</title>
+  <title>Grace D. Li | Contact</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,16 +23,16 @@
         <li class="nav-item">
           <a class="nav-link" href="./bio">About</a>
         </li>
-        <li class="nav-item dropdown active">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Books
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Portrait of a Thief</a>
+            <a class="dropdown-item" href="./thief">Portrait of a Thief</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact">Contact</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Contact</a>
         </li>
     </div>
   </nav>
@@ -40,35 +41,46 @@
     <div class="container">
     <br/><br/>
     <section class="presentation">
-      <h1>Portrait of a Thief</h1>
+      <h1>Contact</h1>
         <div class="card neu">
           <div class="card-body">
-            <div class="card-text" style="font-style: italic">This was how things began: Boston on the cusp of fall, the Sackler Museum robbed of 23 pieces of priceless Chinese art. Even in this back room, dust catching the slant of golden, late- afternoon light, Will Chen could hear the sirens. They sounded like a promise.</div>
+            <p>For literary/rights inquiries, contact Hannah Fergesen at <a href="mailto:hannah@ktliterary.com">hannah@ktliterary.com</a>.</p>
+            <p>For film inquiries, contact Steve Fisher at <a href="mailto:sfisher@apa-agency.com">sfisher@apa-agency.com</a>.</p>
+            <p>For social media: &nbsp;
+              <a href="https://twitter.com/gracedli" target="_blank"><span class="fab fa-twitter fa-lg" id="twitter-icon"></span></a>
+              <a href="mailto:graceliwrites@gmail.com"><span class="fas fa-envelope fa-lg" id="mail-icon"></span></a></p>
           </div>
         </div>
-        <br/>
+        <br/><br/>
         <div class="card neu">
           <div class="card-body">
-            <img src="./assets/img/thief-pic.jpeg" class="card-img-top">
-          </div>
-        </div>
-        <br/>
-        <div class="card neu">
-          <div class="card-body">
-            <p>Portrait of a Thief is Ocean's Eleven meets The Farewell, about five Chinese American college students hired for a series of heists to reclaim looted Chinese art. It is based on <a href="https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fwww.gq.com%2Fstory%2Fthe-great-chinese-art-heist" target="_blank">this true story</a> of Chinese art vanishing from Western museums.</p>
-            <p>It has:
-              <ul>
-                <li>Ambitious Chinese American college students</li>
-                <li>Anti-imperialism</li>
-                <li>Museum heists</li>
-                <li>Fast and Furious-esque street races</li>
-                <li>The loss inherent in diaspora</li>
-              </ul>
-            </p>
+            <p>To contact Grace directly:</p>
+            <form name="contact" method="POST" netlify>
+              <div class="row">
+                <div class="form-group col col-md-6">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control neu-in input" id="name" name="name" placeholder="Your Name"> 
+                </div>
+                <div class="form-group col col-md-6">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control neu-in input" id="email" name="email" placeholder="name@example.com"> 
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control neu-in input" id="subject" name="subject" placeholder="Subject"> 
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea type="text" class="form-control neu-in input" id="message" name="message" placeholder="Message"></textarea>
+              </div>
+              <p>
+                <button type="submit" class="btn neu neu-btn neu-btn-dark">Send</button>
+              </p>
+            </form>
           </div>
         </div>
     </section>
-    <br/><br/>
     <footer>
       <div style="text-align:center;">
         © 2020 Grace Li.

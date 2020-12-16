@@ -10,7 +10,7 @@ a:hover {
   color: #573CB9;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Lora', serif;
 }
 
@@ -69,13 +69,17 @@ section {
   min-height: 80vh;
 }
 
+.presentation-end {
+  margin-bottom: 10%;
+}
+
 .navbar-brand {
   font-family: 'Lora', serif;
 }
 
 .profile {
   display: flex;
-  min-height: 80vh;
+  min-height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -109,6 +113,12 @@ section {
   color: black;
 }
 
+.neu-btn-dark:hover {
+  background: #343a40;
+  color: white;
+  box-shadow: none;
+}
+
 .row-cards {
   height: 95%;
 }
@@ -120,4 +130,8 @@ section {
 #profile-image {
   max-height: 150px;
   border-radius: 10px;
+}
+
+.input:focus {
+  
 }

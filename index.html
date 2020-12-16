@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <head>
-  <title>Grace Li</title>
+  <title>Grace D. Li</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light transparent">
-    <a class="navbar-brand" href="#">Grace Li</a>
+    <a class="navbar-brand" href="#">Grace D. Li</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,21 +20,45 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./bio">About</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Novels
+            Books
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./troy">The Fall of Troy</a>
             <a class="dropdown-item" href="./thief">Portrait of a Thief</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact">Contact</a>
         </li>
     </div>
   </nav>
 
   <main>
     <div class="container">
-    <section class="profile">
+      <section class="profile">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="profile-section" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+              <div>
+                <h2>Portrait of a Thief</h2>
+                <p>Five Chinese American college students, the heist of a lifetime, and the reclamation of looted art.</p>
+                <!-- <input type="email" class="form-control neu input" id="email" placeholder="Email">
+                <br/> -->
+                <a href="./thief" class="btn btn-dark neu neu-btn">Learn more</a>
+              </div>
+            </div>
+            <br/>
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/img/book_mockup.png" alt="..." id="book-mockup" style="max-width:100%;">
+          </div>
+        </div>
+      </section>
+    <!-- <section class="profile">
       <div class="row">
         <div class="col-md-4">
           <div class="profile-section" style="padding-top: 10px; padding-left: 10px;">
@@ -44,9 +68,6 @@
         </div>
         <div class="col-md-8">
           <div class="card neu" style="max-width: 30rem;">
-            <!-- <div style="padding-top: 10px; padding-left: 10px;">
-              <img src="./assets/img/grace.jpg" class="card-img-top" alt="..." id="profile-image">
-            </div> -->
             <div class="card-body">
               <h5 class="card-title">Grace Li | <span style="font-style: italic;">Writer</span></h5>
               <p class="card-text">Grace Li grew up in Houston, Texas, and is a graduate of Duke University, where she studied biology and creative writing. She is currently in medical school at Stanford University. She likes dessert, stories about diaspora, and prose so good it can be eaten. Grace is represented by Hannah Fergesen at KT Literary.</p>
@@ -59,6 +80,29 @@
     </section>
 
     <section class="presentation">
+      <h1>Books</h1>
+        <div class="card mb-3 neu" style="width:100%;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="assets/img/thief-pic.jpeg" class="card-img" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Portrait of a Thief</h5>
+                <p class="card-text">Portrait of a Thief is Ocean's Eleven meets The Farewell, about five Chinese American college students hired for a series of heists to reclaim looted Chinese art. It is based on the true story of Chinese art vanishing from Western museums.</p>
+              </div>
+              <div class="card-body">
+                <a href="./thief" class="btn btn-dark neu neu-btn" type="submit">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      <br/><br/>
+    </section>
+    <br/><br/>
+
+    <section class="presentation-end">
       <h1>Short Pieces</h1>
       <div class="card-deck">
         <div class="card neu-in">
@@ -80,35 +124,7 @@
           </div>
         </div>
       </div>
-      <br/><br/>
-    </section>
-
-    <section class="presentation">
-      <h1>Novels</h1>
-      <div class="card-deck">
-        <div class="card neu">
-          <img src="./assets/img/troy.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">The Fall of Troy</h5>
-            <p class="card-text">The Fall of Troy is a feminist reimagining of the Iliad, set in the Greek underworld. When Helen of Troy enters the afterlife, she must face all the heroes who died in the war she caused — and they aren't ready to forgive her.</p>
-          </div>
-          <div class="card-body">
-            <a href="./troy" class="btn btn-dark neu neu-btn" type="submit">Learn more</a>
-          </div>
-        </div>
-        <div class="card neu">
-          <img src="./assets/img/thief.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Portrait of a Thief</h5>
-            <p class="card-text">Portrait of a Thief is Ocean's Eleven meets The Farewell, about five Chinese American college students hired for a series of heists to reclaim looted Chinese art. It is based on the true story of Chinese art vanishing from Western museums.</p>
-          </div>
-          <div class="card-body">
-            <a href="./thief" class="btn btn-dark neu neu-btn" type="submit">Learn more</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <br/><br/>
+    </section> -->
     <footer>
       <div style="text-align:center;">
         © 2020 Grace Li.
