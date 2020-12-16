@@ -10,7 +10,7 @@ a:hover {
   color: #573CB9;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Lora', serif;
 }
 
@@ -113,6 +113,12 @@ section {
   color: black;
 }
 
+.neu-btn-dark:hover {
+  background: #343a40;
+  color: white;
+  box-shadow: none;
+}
+
 .row-cards {
   height: 95%;
 }
@@ -124,4 +130,8 @@ section {
 #profile-image {
   max-height: 150px;
   border-radius: 10px;
+}
+
+.input:focus {
+  
 }
