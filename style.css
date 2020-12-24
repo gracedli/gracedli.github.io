@@ -6,6 +6,10 @@ a {
   color: #5B6186;
 }
 
+.text-link {
+  text-decoration: underline;
+}
+
 a:hover {
   color: #5B6186;
 }
@@ -126,11 +130,6 @@ section {
 /* .neu-btn:hover {
   box-shadow: inset -6px -6px 26px 0 rgba(255,255,255,0.95), inset 6px 6px 16px 0 rgba(217, 210, 200, 0.95) ;
 } */
-
-#profile-image {
-  max-height: 150px;
-  border-radius: 10px;
-}
 
 .input:focus {
   
