@@ -31,6 +31,14 @@ h5 {
   color: #1DA1F2;
 }
 
+#goodreads-icon {
+  color: black;
+}
+
+#goodreads-icon:hover {
+  color: #5B6186;
+}
+
 #mail-icon {
   color: black;
 }
@@ -133,4 +141,12 @@ section {
 
 .input:focus {
   
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
