@@ -156,3 +156,18 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+.center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.newsletter {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+}
