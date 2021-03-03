@@ -31,6 +31,14 @@ h5 {
   color: #1DA1F2;
 }
 
+#instagram-icon {
+  color: black;
+}
+
+#instagram-icon:hover {
+  color: #E1306C;
+}
+
 #goodreads-icon {
   color: black;
 }
