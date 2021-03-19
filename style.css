@@ -1,5 +1,9 @@
-main {
+body {
   background: #e6e7ee;
+}
+
+main {
+  margin-top: 50px;
 }
 
 a {
@@ -120,6 +124,12 @@ section {
   border: 1px solid rgba(255,255,255,0.20);
   border-radius: 12px;
   box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff;
+}
+
+.neu-nav {
+  background: #e6e7ee;
+  border: 1px solid rgba(255,255,255,0.20);
+  box-shadow: 0px 6px 12px #b8b9be;
 }
 
 .neu-in {

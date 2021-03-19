@@ -16,38 +16,10 @@
 
     gtag('config', 'G-9PZ4S2WSRW');
   </script>
+  <script src="script.js"></script>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light transparent">
-    <a class="navbar-brand" href="#"><img src="./assets/img/grace_logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">&nbsp;Grace D. Li</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Books
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./thief">Portrait of a Thief</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact">Contact</a>
-        </li>
-      </ul>
-      <a href="https://www.goodreads.com/book/show/57021127-portrait-of-a-thief" target="_blank" class="nav-link btn btn-dark neu neu-btn">Add to <span class="bold">Goodreads</span></a>
-    </div>
-  </nav>
-
+<body onload="addNav('home')">
+  <div id="nav-container"></div>
   <main>
     <div class="container">
       <section class="profile">
