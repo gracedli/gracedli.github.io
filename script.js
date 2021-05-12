@@ -17,7 +17,7 @@ const TEMPLATE_NAV = `<nav class="navbar navbar-expand-lg navbar-light transpare
         Books
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="./thief">Portrait of a Thief</a>
+        <a class="dropdown-item" href="./portrait">Portrait of a Thief</a>
       </div>
     </li>
     <li id="nav-press" class="nav-item">
