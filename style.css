@@ -189,3 +189,22 @@ section {
   max-width: 400px;
   margin: auto;
 }
+
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.pre-order-img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn-row {
+  margin-right: 5px;
+}
