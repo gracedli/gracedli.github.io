@@ -27,7 +27,7 @@ const TEMPLATE_NAV = `<nav class="navbar navbar-expand-lg navbar-light transpare
       <a class="nav-link" href="./contact">Contact</a>
     </li>
   </ul>
-  <a href="https://www.penguinrandomhouse.com/books/679113/portrait-of-a-thief-by-grace-d-li/" target="_blank" class="nav-link btn btn-dark neu neu-btn"><span class="bold">Pre-order</span></a>
+  <a href="https://www.penguinrandomhouse.com/books/679113/portrait-of-a-thief-by-grace-d-li/" target="_blank" class="nav-link btn btn-dark neu neu-btn"><span class="bold">Pre-order now!</span></a>
 </div>
 </nav>`
 
