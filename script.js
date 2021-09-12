@@ -23,6 +23,9 @@ const TEMPLATE_NAV = `<nav class="navbar navbar-expand-lg navbar-light transpare
     <li id="nav-press" class="nav-item">
       <a class="nav-link" href="./press">Press</a>
     </li>
+    <li id="nav-pitchwars" class="nav-item">
+      <a class="nav-link" href="./pitchwars">Pitch Wars</a>
+    </li>
     <li id="nav-contact" class="nav-item">
       <a class="nav-link" href="./contact">Contact</a>
     </li>
